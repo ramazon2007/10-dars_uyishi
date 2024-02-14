@@ -1,0 +1,652 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  height: 96px;
+  margin: 0 auto;
+}
+.container img {
+  position: relative;
+  width: 107.82px;
+  height: 28.56px;
+  top: 34px;
+  left: 169px;
+  cursor: pointer;
+}
+.container ul {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  top: 10px;
+  left: 350px;
+  font-family: ramazon;
+  color: #939CAA;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container ul li {
+  cursor: pointer;
+}
+.container ul li:hover {
+  color: #FCB72B;
+  transition: 0.5s;
+}
+.container button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  background-color: #FCB72B;
+  top: -30px;
+  left: 1095px;
+  border: 0px;
+  cursor: pointer;
+  color: white;
+  font-family: ramazon;
+  border-radius: 2px;
+}
+.container button:hover {
+  background-color: transparent;
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  transition: 0.5s;
+}
+
+.container1 {
+  max-width: 1440px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.container2 {
+  position: relative;
+  max-width: 1440px;
+  height: 445px;
+  margin: 0 auto;
+  top: 100px;
+}
+.container2 .box1 {
+  position: relative;
+  top: 60px;
+  left: 150px;
+  font-family: ramazon;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: -2.1428570747px;
+  text-align: left;
+  color: #495567;
+}
+.container2 .box1 p {
+  position: relative;
+  top: 25px;
+  left: 0px;
+  font-family: ramazon;
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 60%;
+  line-height: 35px;
+  letter-spacing: -2.1428570747px;
+  text-align: left;
+  color: #495567;
+}
+.container2 .box1 button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: 55px;
+  left: 0px;
+  font-family: ramazon;
+  background-color: #FCB72B;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.container2 .box1 button:hover {
+  background-color: transparent;
+  border: 2px solid #FCB72B;
+  color: #FCB72B;
+  transition: 0.5s;
+}
+.container2 .box2 .bitmap {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: -240px;
+  left: 850px;
+  border-radius: 50%;
+}
+.container2 .box2 .path4 {
+  position: relative;
+  width: 734px;
+  height: 100px;
+  top: -270px;
+  left: 320px;
+}
+.container2 .box2 .group13 {
+  position: relative;
+  width: 39px;
+  height: 78px;
+  top: -238px;
+  left: -430px;
+}
+
+.container3 {
+  position: relative;
+  max-width: 1440px;
+  height: 608px;
+  margin: 0 auto;
+  top: 150px;
+}
+.container3 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  text-align: center;
+  color: #495567;
+  top: 20px;
+}
+.container3 .haw {
+  position: relative;
+  display: flex;
+  gap: 160px;
+  top: 100px;
+  left: 100px;
+}
+.container3 .haw .big1 img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+.container3 .haw .big1 .hash {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  background-color: #FCB72B;
+  border-radius: 50%;
+  top: -50px;
+  left: 70px;
+}
+.container3 .haw .big1 .hash h2 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+  top: 30px;
+}
+.container3 .haw .big1 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  color: #495567;
+  top: -20px;
+  left: -40px;
+}
+.container3 .haw .big1 p {
+  position: relative;
+  font-family: lexen;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #939CAA;
+  left: -20px;
+}
+
+.container4 {
+  position: relative;
+  max-width: 1110px;
+  top: 200px;
+  margin: 0 auto;
+}
+.container4 .div1 {
+  max-width: 1440px;
+  height: 128px;
+  background-color: #F2F5F9;
+}
+.container4 .div1 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  color: #495567;
+  top: 50px;
+  left: 50px;
+}
+.container4 .div1 p {
+  position: relative;
+  font-family: lexen;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #495567;
+  top: 55px;
+  left: 50px;
+}
+.container4 .div1 button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: -5px;
+  left: 880px;
+  background-color: #FCB72B;
+  font-family: ramazon;
+  font-size: 15px;
+  color: white;
+  border: 0px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.container4 .div1 button:hover {
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.container4 .div2 {
+  position: relative;
+  max-width: 1440px;
+  height: 128px;
+  background-color: #F2F5F9;
+  top: 20px;
+}
+.container4 .div2 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  color: #495567;
+  top: 50px;
+  left: 50px;
+}
+.container4 .div2 p {
+  position: relative;
+  font-family: lexen;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #495567;
+  top: 55px;
+  left: 50px;
+}
+.container4 .div2 button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: -5px;
+  left: 880px;
+  background-color: #FCB72B;
+  font-family: ramazon;
+  font-size: 15px;
+  color: white;
+  border: 0px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.container4 .div2 button:hover {
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.container4 .div3 {
+  position: relative;
+  max-width: 1440px;
+  height: 128px;
+  background-color: #F2F5F9;
+  top: 40px;
+}
+.container4 .div3 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  color: #495567;
+  top: 50px;
+  left: 50px;
+}
+.container4 .div3 p {
+  position: relative;
+  font-family: lexen;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #495567;
+  top: 55px;
+  left: 50px;
+}
+.container4 .div3 button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: -5px;
+  left: 880px;
+  background-color: #FCB72B;
+  font-family: ramazon;
+  font-size: 15px;
+  color: white;
+  border: 0px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.container4 .div3 button:hover {
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.container4 .div4 {
+  position: relative;
+  max-width: 1440px;
+  height: 128px;
+  background-color: #F2F5F9;
+  top: 60px;
+}
+.container4 .div4 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  color: #495567;
+  top: 50px;
+  left: 50px;
+}
+.container4 .div4 p {
+  position: relative;
+  font-family: lexen;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #495567;
+  top: 55px;
+  left: 50px;
+}
+.container4 .div4 button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: -5px;
+  left: 880px;
+  background-color: #FCB72B;
+  font-family: ramazon;
+  font-size: 15px;
+  color: white;
+  border: 0px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.container4 .div4 button:hover {
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.container4 .div5 {
+  position: relative;
+  max-width: 1440px;
+  height: 128px;
+  background-color: #F2F5F9;
+  top: 80px;
+}
+.container4 .div5 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  color: #495567;
+  top: 50px;
+  left: 50px;
+}
+.container4 .div5 p {
+  position: relative;
+  font-family: lexen;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #495567;
+  top: 55px;
+  left: 50px;
+}
+.container4 .div5 button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: -5px;
+  left: 880px;
+  background-color: #FCB72B;
+  font-family: ramazon;
+  font-size: 15px;
+  color: white;
+  border: 0px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.container4 .div5 button:hover {
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.container4 .div6 {
+  position: relative;
+  max-width: 1440px;
+  height: 128px;
+  background-color: #F2F5F9;
+  top: 100px;
+}
+.container4 .div6 h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: left;
+  color: #495567;
+  top: 50px;
+  left: 50px;
+}
+.container4 .div6 p {
+  position: relative;
+  font-family: lexen;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #495567;
+  top: 55px;
+  left: 50px;
+}
+.container4 .div6 button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: -5px;
+  left: 880px;
+  background-color: #FCB72B;
+  font-family: ramazon;
+  font-size: 15px;
+  color: white;
+  border: 0px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.container4 .div6 button:hover {
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.footer {
+  position: relative;
+  max-width: 1440px;
+  height: 300px;
+  background-color: #495567;
+  top: 500px;
+  margin: 0 auto;
+}
+.footer h1 {
+  position: relative;
+  font-family: ramazon;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  text-align: left;
+  color: white;
+  top: 100px;
+  left: 100px;
+}
+.footer .gr28 {
+  position: relative;
+  width: 159px;
+  height: 56px;
+  top: 30px;
+  left: 850px;
+}
+.footer .gr29 {
+  position: relative;
+  width: 159px;
+  height: 56px;
+  top: 30px;
+  left: 870px;
+}
+
+.footer_tagi {
+  position: relative;
+  max-width: 1440px;
+  height: 96px;
+  background-color: #333A44;
+  top: 500px;
+  margin: 0 auto;
+}
+.footer_tagi .scot {
+  position: relative;
+  width: 107.82px;
+  height: 28.56px;
+  top: 32px;
+  left: 168px;
+  cursor: pointer;
+}
+.footer_tagi ul {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  top: 10px;
+  left: 350px;
+  font-family: ramazon;
+  color: #939CAA;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.footer_tagi ul li {
+  cursor: pointer;
+}
+.footer_tagi ul li:hover {
+  color: #FCB72B;
+  transition: 0.5s;
+}
+.footer_tagi .facebook {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  left: 1100px;
+}
+.footer_tagi .twitter {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  left: 1110px;
+}
+.footer_tagi .instagram {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  left: 1120px;
+}
+
+@font-face {
+  font-family: ramazon;
+  src: url(../fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+  font-family: lexen;
+  src: url(../fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+}/*# sourceMappingURL=main.css.map */
